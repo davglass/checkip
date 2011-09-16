@@ -1,0 +1,18 @@
+{
+    "name": "checkip",
+    "description": "Get's your current IP address (if behind a NAT).",
+    "version": "0.1.0",
+    "author": "Dav Glass <davglass@gmail.com>",
+    "keywords": [
+        "ipaddress",
+        "ip",
+        "nat"
+    ],
+    "bin": {
+        "checkip": "./lib/check.js"
+    },
+    "engines": {
+        "node": ">=0.4.0"
+    },
+    "preferGlobal": "true"
+}
